@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Load your trained model
-model = tf.keras.models.load_model(r"C:\Users\arjun\Desktop\Pneumonia dectection using cnn\CNN_model.h5")
+model = tf.keras.models.load_model("CNN_model.h5")
 
 # Helper function for preprocessing the image
 def preprocess_image(image, target_size=(255, 255)):
